@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Icons8-Ios7-Cinema-Documentary.24.ico" type="image/x-icon">
+    <title>Aprendendo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cineletra</h1>
+        <nav>
+            <ul>
+                <li class="Cabe"><a href="#section1">HTML</a></li>
+                <li class="Cabe"><a href="css.html">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Esse é um dos paragrafos</h2>
+        <img class="imagemUm" src="img/toppng.com-zap-zap-200x142.png" alt="Logo zapzap">
+        <p class="opa">Para colocar uma imagem, usamos a expressão <b>"img src"</b>. Esta vai ser capaz de direcionar o
+            caminho da
+            imagem.</p>
+        <hr>
+        <section id="section1" class="arial">
+            <h2 class="tituloUm">Sobre as formatações do html</h2>
+            <h3>Termos e descrições.</h3>
+            <p>Exemplo:</p>
+            <dl>
+                <dt>Exemplo</dt>
+                <dd>Definição do exemplo</dd>
+            </dl>
+            <h3>Listas</h3>
+            <h4>Não Ordenadas</h4>
+            <p>As lista podem ser ciradas a patir do comando, tag, "ul" e logo após o "li". Como mostrado a baixo:</p>
+            <ul type="square">
+                <li>dois</li>
+                <li>tres</li>
+            </ul>
+            <p>Repare que ess lista ficou com quadradinho, isso se dá pela expressão <b>&lt;ul type=square"&gt;</b>,
+                Quisermos uma lista com redondos fazemos normalmente.</p>
+            <h4>Ordenadas</h4>
+            <p>Podemos criar uma lista com letras e numeros.</p>
+            <h5>Letras</h5>
+            <ol type="A" start="1">
+                <li>um</li>
+                <li>Dois</li>
+                <li>três</li>
+            </ol>
+            <p>Isso se dá pela marcação "ol type="A" start="1"</p>
+            <h5>Números</h5>
+            <ol type="1" start="1">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ol>
+            Isso se dá pela marcação "ol type="1" start="1". Se substituir o número no start, a lista começará pelo
+            número
+            que lá estiver.
+            <h4>Juntando Listas</h4>
+            <ol type="1" start="1">
+                <li>Aula</li>
+                <ol type="A" start="1">
+                    <li>Seção um</li>
+                    <li>Seção dois</li>
+                </ol>
+                <li>Aula</li>
+                <ol type="A" start="1">
+                    <li>Seção um</li>
+                    <li>Seção Dois</li>
+                </ol>
+
+            </ol>
+            <h3>Negrito</h3>
+            <p>Pode-se usar "b" ou "strong" para ficar em <b>negrito</b>.
+                "strong" tem um valor semantico, já "b" é visual.</p>
+            <h3>italico</h3>
+            <p>Para textos em italicos usamos a tag "i" ou "em"</p>
+            <ul>
+                <li><i>Teste com "i"</i></li>
+                <li><em>Teste com "em"</em></li>
+            </ul>
+
+            <h3>Texto Pré formatado</h3>
+            <p>o Texto pré formatado é aquele que o sistema preserva espaço em brancos e afins. Exmeplo:</p>
+            <ul>
+                <li>
+                    <pre><abbr title="Se usa pre">Texto pré formatado na sua tela</abbr></pre>
+                </li>
+            </ul>
+            <p>Perceba que há uma alteraçõa na forma que o texto está escrito.</p>
+            <h3>Lorem</h3>
+            <p>Lorem é uma função que cria um pequeno texto para que possa exibir na tela. Não é necessario eu colocá-lo
+                para exemplificar.</p>
+            <h3>DEL, texto <del>riscado</del></h3>
+            <p>Para texto riscado, é necessário colocar "del" entre as palavras, frases </p>
+            <h3>Texto <mark>grifado</mark></h3>
+            <p>Texto grifado se usa "mark" entre as frases, palavras. "mark" exemplo "mark"</p>
+            <h3>Citações</h3>
+            <p><q>Citação</q>, Perceba que a palavra adquiriu aspas e isso significa citação. É importante que coloque
+                "p"
+                para que o navegador entenda que é uma citação.</p>
+            <h3><abbr title="Exmeplo de abreviação">ABBR</abbr></h3>
+            <p>Passando o cursor do mouse por cima do título, irá ver esse formato. Isso se dá pelo "abbr" </p>
+        </section>
+        <hr>
+        <section>
+            <h2>Links</h2>
+            <h3>Links externos</h3>
+            <p>Para links se usa o "a" que vem em segida do href e o link da página. é interessante colocar
+                "target_blank"
+                para
+                a página abrir em outro aba. <br>Exemplo de link: <a
+                    href="https://www.notion.so/cineletra/61927b21d92e44d38b1e51e3fb338d5e?v=5166bb4f31884319a7be15e7e6ed0765&p=662b258524654b82897959c80f75169e&pm=c"
+                    target="_blank" rel="external">NOTION</a></p>
+            <h3>Links internos</h3>
+            <p>Para link interno, basta colocar "a" e todo o código padrão, depois o caminho da página que está na pasta
+            </p>
+        </section>
+        <hr>
+        <h2>Downloads</h2>
+        <p>Para Downloads o procedimento é: "a" href="pasta do arquivo/imagem ou arquivo"
+            <b>download</b>="html.png">Baixar
+            numero um "a"
+        </p>
+        <p>Teste:<a href="img/hmtl.png" download="hmtl.png">Baixar numero um</a></p>
+        <h2>Imagens dinâmicas</h2>
+        <p>Primeiro faça três imagens com tamanhos diferetes, depois adicione a tag "picture", depois "source:media
+            type", o
+            resto é história</p>
+        <picture>
+            <source media="(max-width: 1050px)" srcset="img/300x300.png" type="image/png">
+            <source media="(max-width: 300px)" srcset="img/100x100.png" type="image/png">
+            <img src="img/500x500.png" alt="500x500">
+        </picture>
+        <h2>Áudio</h2>
+        <p>Audio(tag) - source src. Vários formatos para maior compatibilidade.</p>
+        <audio preload="none">
+            <source src="media/discord-notification.wav" target="_blank" controls>
+            <source src="media/discord-notification.wav" type="audio/ogg">
+        </audio>
+        <p>Não é compátivel. Acesse o arquivo <a href="media/discord-notification.wav" target="_blank"
+                rel="external">Aqui</a></p>
+        <h2>Vídeos</h2>
+        <p>é importante ter vários formatos de vídeos para maior compatibilidade. Importante colocar "width", para
+            alterar o
+            tamanho
+            e "poster" para a imagem do video.</p>
+        <video src="#" width="250" poster="img/100x100.png" controls></video>
+        <hr>
+        <!--Backgroud-attachment:fixed; para travar -->
+    </main>
+
+
+</body>
+
+</html>
